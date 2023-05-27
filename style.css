@@ -1,0 +1,55 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .buttons {
+    margin-bottom: 20px;
+  }
+  
+  .filter-btn {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .menu-items {
+    display: flex ;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    margin: 20px 0;  
+  }
+  
+  .menu-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .menu-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item h4 {
+    margin-bottom: 10px;
+  }
+  
+  .menu-item p {
+    margin-bottom: 0;
+  }
+  
+  .image-with-text img {
+    float: left;
+    margin-right: 10px; /* İsteğe bağlı olarak resim ile metin arasına boşluk ekleyebilirsiniz */
+  }
+  .title-price-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
